@@ -317,22 +317,24 @@ footer {
         justify-self: stretch;
 
         display: flex;
-        flex-direction: row;
-        align-items: stretch;
-        gap: 1rem;
+        flex-direction: column;
+        gap: 0.75rem;
     }
 
     .publication-figure {
-        flex: 1;
-        width: 0;
+        width: 100%;
         max-height: none;
         object-fit: contain;
+        pointer-events: none;
+        cursor: default;
     }
 
     .publication-icons {
+        width: 100%;
         height: auto;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-evenly;
+        align-items: center;
     }
 }
 
