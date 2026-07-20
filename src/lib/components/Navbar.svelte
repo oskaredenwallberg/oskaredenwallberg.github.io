@@ -13,9 +13,9 @@
     <a href="/projects">
         Projects
     </a>
-    <a href="/blog">
+    <!-- <a href="/blog">
         Blog
-    </a>
+    </a> -->
     <a href="./assets/CV2026.pdf" target="_blank" rel="noopener">
         CV
     </a>
