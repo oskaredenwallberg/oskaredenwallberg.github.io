@@ -140,6 +140,8 @@
     .figure-modal {
         position: fixed;
         inset: 0;
+        width: 100vw;
+        height: 100dvh;
 
         display: flex;
         justify-content: center;
@@ -156,8 +158,9 @@
     }
 
     .figure-modal-img {
-        width: auto;
-        height: 90vh;
+        width: 90vw;
+        max-height: 90vh;
+        object-fit: contain;
 
         background: white;
         border-radius: 8px;
